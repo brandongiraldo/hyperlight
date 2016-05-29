@@ -1,0 +1,14 @@
+menu:
+	Blog: /
+	Archive: /archives/ # Nginx ... ?
+	Github: https://github.com/brandongiraldo
+	
+
+favicon: /favicon.png # Still need to make this
+logo: /favicon.png # Same for this
+
+ga: UA-xxxxxxx-x # Get later
+
+startyear: 2016
+
+googlefonts: true # Why not!
