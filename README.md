@@ -1,3 +1,7 @@
-# Hyperlight - Hexo Theme
+# Hyperlight
 
-## Hyperlight is a lightweight, minimalistic theme for hexo.
+A minimalist blogging theme for hexo.
+
+Development is in progress.
+
+

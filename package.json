@@ -1,0 +1,19 @@
+{
+  "name": "hyperlight",
+  "version": "1.0.1",
+  "description": "A minimalist blogging theme for hexo",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brandongiraldo/hyperlight"
+  },
+  "keywords": [
+    "hexo",
+    "theme",
+    "hyperlight"
+  ],
+  "author": "Brandon Giraldo",
+  "license": "MIT",
+  "homepage": "https://github.com/pinggod/hexo-theme-apollo#readme",
+  "devDependencies": {}
+}
