@@ -1,0 +1,11 @@
+@font-face {
+	font-family: "Avenir";
+	src: url("../fonts/Avenir-85-Heavy.otf");
+}
+@font-face {
+	font-family: "OpenSans";
+	src: url("../fonts/OpenSans-Light.ttf");
+}
+body {
+	font-family: OpenSans;
+}
