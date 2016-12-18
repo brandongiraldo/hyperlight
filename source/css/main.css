@@ -1,11 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
 @font-face {
-	font-family: "Avenir";
-	src: url("../fonts/Avenir-85-Heavy.otf");
-}
-@font-face {
-	font-family: "OpenSans";
-	src: url("../fonts/OpenSans-Light.ttf");
+	font-family: Calibre-Semibold;
+	src: url("/fonts/Calibre-Semibold.otf");
 }
 body {
-	font-family: OpenSans;
+	font-family: 'Open Sans', sans-serif;
+}
+
+/* Index */
+.main_container {
+	width: 50%;
+	margin: auto;
+}
+
+/* Banner partial */
+.banner_container {
+	padding: 125px 0 125px 0;
+	background: url(/images/bpl.png);
+	letter-spacing: .3px;
+	background-position: center center;
+    background-size: cover;
+}
+.banner_container .banner {
+	color: white;
+}
+.banner_container .banner .author {
+	font-family: Calibre-Semibold;
+	font-size: 54px;
+	text-align: center;
+}
+.banner_container .banner .subtitle {
+	text-align: center;
+	font-size: 16px;
+}
+
+/* Footer partial */
+.footer {
+	padding: 50px 0 50px 0;
+	text-align: center;
+}
+.footer .content {
+	color: #000000;
+}
+
+/* Nav partial */
+.nav {
+	width: 100%;
+	padding: 30px 0 30px 0;
+}
+.nav a {
+	color: #333;
+	margin: 30px 25px 30px 25px;
+	padding: 
+}
+.nav .active {
+	border-bottom: 1px solid #333;
 }
