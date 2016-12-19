@@ -63,11 +63,9 @@ body {
 .nav a:hover {
 	text-decoration: none;
 	border-bottom: 2px solid #225378;
-    border-radius: 1px;
 }
 .nav .active {
 	border-bottom: 2px solid #225378;
-    border-radius: 1px;
 }
 .nav a:nth-child(1) {
 	margin-left: 0;
@@ -75,6 +73,17 @@ body {
 
 /* Posts partial */
 .posts {
+	
+}
+.posts .post {
 	padding: 50px 0 50px 0;
-	border-bottom: 1px solid #f1f1f1;
+    border-bottom: 1px solid #f1f1f1;
+}
+.posts .post .title {
+	font-family: Calibre-Semibold;
+	font-size: 32px;
+	color: #333;
+}
+.posts .post .title a {
+	color: #333;
 }

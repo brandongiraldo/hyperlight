@@ -4,12 +4,14 @@
 	<div class="posts">
 	 	<% page.posts.each(function(post){ %>
 	 		<div class="post">
-	 			<div class="title"><a href="<%- url_for(post.path) %>"><%= post.title %></a></h3>
+	 			<div class="title">
+	 				<a href="<%- url_for(post.path) %>"><%= post.title %></a>
+	 			</div>
 		        <div class='text-muted'>
 					<%= date(post.date, config.date_format) %> 
 				</div>
 				<% if(post.excerpt) { %>
-					<p><%- post.excerpt %></p>
+					<%- post.excerpt %>
 				<% } %>
 	 		</div>
 		<% }) %>
