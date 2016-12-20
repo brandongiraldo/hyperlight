@@ -7,11 +7,14 @@
 	 			<div class="title">
 	 				<a href="<%- url_for(post.path) %>"><%= post.title %></a>
 	 			</div>
-		        <div class='text-muted'>
-					<%= date(post.date, config.date_format) %> 
+		        <div class='date'>
+					<%= full_date(post.date, 'll') %> 
 				</div>
 				<% if(post.excerpt) { %>
-					<%- post.excerpt %>
+					<div class="excerpt"><%- post.excerpt %></div>
+					<div class="read_more"><a href="<%- url_for(post.path) %>">Read more</a></div>
+				<% } else { %>
+					<div class="read_more"><a href="<%- url_for(post.path) %>">Read</a></div>
 				<% } %>
 	 		</div>
 		<% }) %>

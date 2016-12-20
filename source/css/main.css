@@ -23,13 +23,14 @@ body {
 	letter-spacing: .3px;
 	background-position: center center;
     background-size: cover;
+    box-shadow: 0px 1px 0px #666;
 }
 .banner_container .banner {
 	color: white;
 }
 .banner_container .banner .author {
 	font-family: Calibre-Semibold;
-	font-size: 54px;
+	font-size: 58px;
 	text-align: center;
 }
 .banner_container .banner .subtitle {
@@ -81,9 +82,34 @@ body {
 }
 .posts .post .title {
 	font-family: Calibre-Semibold;
-	font-size: 32px;
+	font-size: 42px;
 	color: #333;
 }
 .posts .post .title a {
-	color: #333;
+	color: #222;
+}
+.posts .post .date {
+	color: #666;
+}
+.posts .post .excerpt {
+	font-size: 16px;
+	color: #222;
+	line-height: 30px;
+}
+.posts .post .read_more {
+	margin-top: 30px;
+}
+.posts .post .read_more a {
+	margin: 10px 0 0 0;
+	font-size: 12px;
+	color: #225378;
+	border: 1px solid #225378;
+	padding: 5px 9px 5px 9px;
+	border-radius: 3px;
+	-webkit-font-smoothing: auto;
+}
+.posts .post .read_more a:hover {
+	color: #ffffff;
+	background: #225378;
+	text-decoration: none;
 }
