@@ -10,6 +10,17 @@
 		        <div class='date'>
 					<%= full_date(post.date, 'll') %> 
 				</div>
+				<% if (post.tags && post.tags.length){ %>
+					<div class="tags">	
+					  	<%- list_tags(post.tags, {
+					    	show_count: false,
+					    	class: 'tag',
+					    	style: 'inline',
+					    	separator: '',
+					    	amount: 4
+						}) %>
+					</div>
+				<% } %>
 				<% if(post.excerpt) { %>
 					<div class="excerpt"><%- post.excerpt %></div>
 					<div class="read_more"><a href="<%- url_for(post.path) %>">Read more</a></div>
