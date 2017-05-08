@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
-@font-face {
-	font-family: Calibre-Semibold;
-	src: url("/fonts/Calibre-Semibold.otf");
-}
+// @font-face {
+// 	font-family: Calibre-Semibold;
+// 	src: url("/fonts/Calibre-Semibold.otf");
+// }
 body {
 	font-family: 'Open Sans', sans-serif;
-	font-weight: 400;
+	font-weight: 300;
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizeLegibility;
 }
@@ -29,14 +29,14 @@ body {
 	color: white;
 }
 .banner_container .banner .author {
-	font-family: Calibre-Semibold;
+	// font-family: Calibre-Semibold;
 	font-size: 58px;
 	text-align: center;
 }
 .banner_container .banner .subtitle {
 	text-align: center;
 	font-size: 16px;
-	font-weight: bold;
+	padding-top: 5px;
 	-webkit-font-smoothing: subpixel-antialiased;
 }
 
@@ -81,8 +81,7 @@ body {
     border-bottom: 1px solid #f1f1f1;
 }
 .posts .post .title {
-	font-family: Calibre-Semibold;
-	font-size: 42px;
+	font-size: 34px;
 	color: #333;
 }
 .posts .post .title a {
@@ -90,7 +89,8 @@ body {
 }
 .posts .post .date {
 	color: #666;
-	display: inline;
+    display: inline-block;
+    margin-top: 5px;
 }
 .posts .post .excerpt {
 	font-size: 18px;
